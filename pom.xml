@@ -12,7 +12,7 @@
         <dependency>
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
-            <version>4.BETA.0_32</version>
+            <version>4.0.0_50</version>
         </dependency>
         <dependency>
             <groupId>net.dean.jraw</groupId>
@@ -20,6 +20,14 @@
             <version>1.1.0</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <name>jcenter-bintray</name>
+            <url>http://jcenter.bintray.com</url>
+        </repository>
+    </repositories>
 
 
 </project>
