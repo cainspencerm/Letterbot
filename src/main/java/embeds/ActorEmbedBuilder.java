@@ -2,7 +2,7 @@ package embeds;
 
 import Contributor.ID.Contributions.FilmContribution;
 import Contributor.ID.Contributor;
-import Contributor.ID.Contributor.ContributionType;
+import Contributor.ID.ContributionType;
 import Search.Search;
 import net.dv8tion.jda.api.EmbedBuilder;
 

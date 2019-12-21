@@ -1,6 +1,7 @@
 package embeds;
 
 import Film.ID.Film;
+import Contributor.ID.ContributionType;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.MessageEmbed;
 
@@ -22,7 +23,8 @@ public class FilmEmbedBuilder extends EmbedBuilder {
         HashSet<String> directorNames = new HashSet<>();
         for (int i = 0; i < film.getContributions().length; i++) {
             for (int j = 0; j < film.getContributions()[i].getContributors().length; j++) {
-                directorNames.add(film.getContributions()[i].getContributors()[j].getName());
+                if (film.getContributions()[i].getType().equals(ContributionType.Director))
+                    directorNames.add(film.getContributions()[i].getContributors()[j].getName());
             }
         }
 

@@ -9,5 +9,6 @@ public class Bot {
         JDA jda = new JDABuilder(Passwords.KEY).build();
         jda.addEventListener(new commands.Film());
         jda.addEventListener(new commands.Actor());
+        jda.addEventListener(new commands.List());
     }
 }
