@@ -11,10 +11,10 @@ The bot works with two commands for the moment:
   
 Following these commands, a user includes the title of the film or list. A partial title works, but might not produce the film or list a user wants. For instance, I can type:
 
--film ad astra
+*  -film ad astra
 
-The bot will then respond with an embedded film. Likewise, I can type:
+The bot will then respond with an embedded film: Ad Astra (https://letterboxd.com/film/ad-astra-2019/). Likewise, I can type:
 
--list 1001 movies you must see
+*  -list 1001 movies you must see
 
 The bot will respond with an embedded list: 1001 Movies You Must See Before You Die (https://letterboxd.com/peterstanley/list/1001-movies-you-must-see-before-you-die/).
